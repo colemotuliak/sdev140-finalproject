@@ -41,7 +41,6 @@ class SNMPGet(EasyFrame):
         # Label and field for the output
         self.addLabel(text = "Output", row = 4, column = 0)
         self.responseField = self.addTextArea(text = "", row = 4, column = 1)
-  
 
     def snmpGet(self):
 
