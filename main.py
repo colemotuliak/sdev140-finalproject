@@ -2,7 +2,7 @@
 '''
 Program Name: SNMPWidget 2000
 Author: Cole Motuliak
-Purpose: A program to perform SNMP GET requests.
+Purpose: A program to perform SNMP GET requests with a GUI.
 '''
 
 # Import the high level API from PySNMP
