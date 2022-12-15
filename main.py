@@ -5,6 +5,15 @@ Author: Cole Motuliak
 Purpose: A program to perform SNMP GET requests with a GUI.
 '''
 
+'''
+Left to do:
+Input validation of OID and IP address, verify community string present.
+Regex for IP address
+Prompt error messages
+Images in error messages?
+'''
+
+
 # Import the high level API from PySNMP
 from pysnmp.hlapi import *
 
