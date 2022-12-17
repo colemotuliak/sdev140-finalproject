@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 '''
 Program Name: SNMPWidget 2000
 Author: Cole Motuliak
