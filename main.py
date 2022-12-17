@@ -126,8 +126,14 @@ class SNMPGet(EasyFrame):
     
     # This function validates an SNMP OID
     def validateOID(self, oid):
-        # return if OID string is numeric
-        return(oid.isnumeric())
+        # make a set of valid OID characters
+        oidChars = set("0123456789.")
+        oidSet = set(oid)
+        if oidSet.issubset(oidChars):
+            return True
+        else:
+            return False
+
         
 
     # This function forms the SNMP GET requests.
