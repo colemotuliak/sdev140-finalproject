@@ -51,6 +51,9 @@ class SNMPGet(EasyFrame):
 
     # This function does input validation
     def validate(self):
+        # initialize toReturn variable
+        # the toReturn variable is evaluated at the end, and if set by the conditionals, will cause the function
+        # to return and not submit the SNMP GET request.
         toReturn = 0
         # test if communityField is empty
         if self.communityField.getText() == "":
